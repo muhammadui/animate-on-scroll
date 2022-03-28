@@ -1,0 +1,25 @@
+{
+  "name": "animate-on-scroll",
+  "version": "1.0.0",
+  "description": "animate on scroll tutorial repo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadui/animate-on-scroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadui/animate-on-scroll/issues"
+  },
+  "homepage": "https://github.com/muhammadui/animate-on-scroll#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
