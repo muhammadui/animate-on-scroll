@@ -11,7 +11,7 @@
     "url": "git+https://github.com/muhammadui/animate-on-scroll.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad UI",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/muhammadui/animate-on-scroll/issues"
@@ -20,6 +20,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   }
 }

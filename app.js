@@ -1,20 +1,16 @@
-var express = require("express");
-var app = express();
-
-// set the view engine to ejs
+const express = require("express");
+const app = express();
+const morgan = require("morgan");
+app.use(morgan("tiny"));
+// view engine - ejs
 app.set("view engine", "ejs");
 
-// use res.render to load up an ejs view file
-
-// index page
-app.get("/", function (req, res) {
+app.get("/test", (req, res) => {
+  res.send("Everything is Working.");
+});
+app.get("/", (req, res) => {
   res.render("index");
 });
-
-// about page
-app.get("/about", function (req, res) {
-  res.render("pages/about");
+app.listen(3003, () => {
+  console.debug("App listening on port 3003");
 });
-
-app.listen(8080);
-console.log("Server is listening on port 8080");
